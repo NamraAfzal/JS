@@ -110,23 +110,28 @@ var itemList = document.querySelector('#items');
 
 // create a div
 
-var newDiv = document.createElement('div');
-// add className
-newDiv.className= 'helo2';
-// add id
-newDiv.id = 'helo1'
-// add attr
-newDiv.setAttribute('title', 'Hello Div')
+// var newDiv = document.createElement('div');
+// // add className
+// newDiv.className= 'helo2';
+// // add id
+// newDiv.id = 'helo1'
+// // add attr
+// newDiv.setAttribute('title', 'Hello Div')
 
-// create text node
-var newDivText = document.createTextNode('hello world');
-newDiv.appendChild(newDivText)
+// // create text node
+// var newDivText = document.createTextNode('hello world');
+// newDiv.appendChild(newDivText)
 
-var container = document.querySelector('header .container');
-var h1 = document.querySelector('header h1');
+// var container = document.querySelector('header .container');
+// var h1 = document.querySelector('header h1');
 
-console.log(newDiv);
+// console.log(newDiv);
 
-newDiv.style.fontSize = '30px';
-container.insertBefore(newDiv, h1);
+// newDiv.style.fontSize = '30px';
+// container.insertBefore(newDiv, h1);
 
+// $(document).ready(function(){
+//   $("button").click(function(){
+//     $("p").hide();
+//   });
+// });
