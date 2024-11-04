@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,17 +15,26 @@
         <h2>Add Items</h2>
         <form>
           <input type="text">
-          <input type="submit" value="Submit">          
+          <button type="submit" value="Submit">submit</button>         
         </form>
-        <h2>Items</h2>
-        <ul>
+        <p>This is our list</p>
+        <h2 class="title">Items</h2>
+        <ul id="items" class="list-group">
           <li class="list-group-item">Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
-          <li>Item 4</li>
+          <li class="list-group-item">Item 2</li>
+          <li class="list-group-item">Item 3</li>
+          <li class="list-group-item">Item 4</li>
         </ul>
+        <p>This is the end of the list</p>
       </div>
     </div>
-  <script src ="main.js"></script>
 </body>
 </html>
+
+<script>
+  $(document).ready(function(){
+    $("button").click(function(){
+      $("p").hide();
+    });
+  });
+</script>
